@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html {
+  height: 100vh;
+
+  color: #fff;
+  background-color: #434344;
+
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 0;
+  display: grid;
+  grid-template: 
+    'logo header name'
+    'leftzone centerzone rightzone'
+    'footerzone none socialmedia'
+  ;
+  height: 100vh;
+}
+
+.grid-template{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 1fr 5%;
+}
+
+aside.logo{
+  grid-area: logo;
+}
+
+div.name{
+  grid-area: name;
+}
+
+header.header{
+  grid-area: header;
+}
+
+.leftzone{
+  grid-area: leftzone;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.centerzone{
+  grid-area: centerzone;
+}
+
+.rightzone{
+  grid-area: rightzone;
+  grid-row-start: -3;
+  grid-row-end: -2;
+}
+
+.footerzone{
+  grid-area: footerzone;
+}
+
+div.socialmedia{
+  grid-area: socialmedia;
+}

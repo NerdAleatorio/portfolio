@@ -1,0 +1,16 @@
+.footerzone{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text{
+    font-size: 1.1em;
+}
+
+#destaque{
+    color: aqua;
+    font-weight: 700;
+    text-shadow: 1px 1px 18px rgb(0, 238, 255);
+}

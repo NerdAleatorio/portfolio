@@ -1,0 +1,26 @@
+div.leftzone{
+    display: grid;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 30rem;
+
+    grid-auto-columns: 100px 100px 100px 100px;
+}
+
+div.leftzone a{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Tilt Neon', sans-serif;
+
+    text-decoration: none;
+    grid-auto-columns: 100px 100px 100px 100px;
+}
+
+
+.rotate{
+    transform: rotate(-90deg);
+}

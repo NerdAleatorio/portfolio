@@ -1,0 +1,16 @@
+div.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.name a{
+    color: aqua;
+    
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Tilt Neon', sans-serif;
+
+    text-transform: uppercase;
+    text-shadow: 1px 1px 18px rgb(0, 238, 255);
+}

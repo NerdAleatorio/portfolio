@@ -1,0 +1,16 @@
+div.centerzone{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 50vh;
+    height: 50vh;
+    
+    border-radius: 50%;
+    border: 1.1em solid aqua;
+
+    box-shadow: var(--font-shadow);
+}

@@ -1,0 +1,26 @@
+div.rightzone{
+    display: grid;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 30rem;
+
+    grid-auto-columns: 100px 100px 100px 100px;
+}
+
+
+div.rightzone a{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Tilt Neon', sans-serif;
+
+    text-decoration: none;
+    grid-auto-columns: 100px 100px 100px 100px;
+}
+
+.co-rotate{
+    transform: rotate(90deg);
+}
